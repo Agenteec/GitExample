@@ -12,7 +12,7 @@ endif()
 project ("GitExample")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (GitExample "GitExample.cpp" "GitExample.h")
+add_executable (GitExample "GitExample.cpp" "GitExample.h" "Matan.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET GitExample PROPERTY CXX_STANDARD 20)
